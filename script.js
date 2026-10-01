@@ -3,7 +3,7 @@ const STORAGE_KEY = "catalogo_ids_v1";
 // IMPORTANTE: esta versión guarda los datos en el navegador.
 // Para un sitio público real con administración segura, conecta este frontend
 // a una base de datos/backend (por ejemplo Supabase/Firebase) antes de publicarlo.
-const ADMIN_PASSWORD = "CAMBIA-ESTA-CONTRASENA";
+const ADMIN_PASSWORD = "MODERACION120";
 
 let items = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
 let editingId = null;
